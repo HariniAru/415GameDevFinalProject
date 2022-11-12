@@ -1565,3 +1565,247 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.12-21.22.43:672][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.11.12-21.22.43:683][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
 [2022.11.12-21.22.43:723][759]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.11.12-21.23.51:268][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.11.12-21.24.07:479][918]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/FirstFloor_Auto1261FF5784B55910593488CB424B8D09E.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Autosaves/Game/EF_FirstFloor/Maps/FirstFloor_Auto1.umap'
+[2022.11.12-21.24.07:494][918]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/EF_FirstFloor/Maps/FirstFloor' took 16.244
+[2022.11.12-21.24.07:494][918]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 16.244
+[2022.11.12-21.37.11:975][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FoyerFloor1_stairs)
+[2022.11.12-21.37.12:961][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LivingRoomFloor)
+[2022.11.12-21.37.13:791][240]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LivingRoomFloor4)
+[2022.11.12-21.37.14:623][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LivingRoomFloor)
+[2022.11.12-21.37.41:848][499]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.12-21.37.41:862][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.12-21.37.41:862][499]PIE: New page: PIE session: FirstFloor (Nov 12, 2022, 9:37:41 AM)
+[2022.11.12-21.37.41:889][499]LogPlayLevel: Creating play world package: /Game/EF_FirstFloor/Maps/UEDPIE_0_FirstFloor
+[2022.11.12-21.37.41:940][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050286s)
+[2022.11.12-21.37.41:941][499]LogAIModule: Creating AISystem for world FirstFloor
+[2022.11.12-21.37.41:941][499]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2022.11.12-21.37.41:941][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/EF_FirstFloor/Maps/FirstFloor.FirstFloor to /Game/EF_FirstFloor/Maps/UEDPIE_0_FirstFloor.FirstFloor (0.051905s)
+[2022.11.12-21.37.41:961][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.11.12-21.37.41:973][499]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.12-21.37.41:973][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.12-21.37.41:973][499]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.12-21.37.41:973][499]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.12-21.37.41:973][499]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.12-21.37.41:973][499]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.12-21.37.41:977][499]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.12-21.37.41:977][499]LogAudioMixer: Display: 1: FrontRight
+[2022.11.12-21.37.42:072][499]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.11.12-21.37.42:073][499]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.12-21.37.42:073][499]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.12-21.37.42:073][499]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.12-21.37.42:073][499]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.12-21.37.42:073][499]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.12-21.37.42:073][499]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.12-21.37.42:075][499]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.12-21.37.42:075][499]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.12-21.37.42:075][499]LogInit: FAudioDevice initialized.
+[2022.11.12-21.37.42:075][499]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstFloor'.
+[2022.11.12-21.37.42:089][499]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.11.12-21.37.42:110][499]LogWorld: Bringing World /Game/EF_FirstFloor/Maps/UEDPIE_0_FirstFloor.FirstFloor up for play (max tick rate 0) at 2022.11.12-15.37.42
+[2022.11.12-21.37.42:110][499]LogWorld: Bringing up level for play took: 0.020667
+[2022.11.12-21.37.42:110][499]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.11.12-21.37.42:116][499]PIE: Server logged in
+[2022.11.12-21.37.42:116][499]PIE: Play in editor total start time 0.257 seconds.
+[2022.11.12-21.42.55:349][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-21.42.55:350][ 59]LogWorld: BeginTearingDown for /Game/EF_FirstFloor/Maps/UEDPIE_0_FirstFloor
+[2022.11.12-21.42.55:350][ 59]LogWorld: UWorld::CleanupWorld for FirstFloor, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-21.42.55:355][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-21.42.55:367][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.12-21.42.55:385][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-21.42.55:407][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.12-21.42.55:407][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.12-21.42.55:408][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.12-21.42.55:413][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-21.42.55:419][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.11.12-21.42.55:475][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.11.12-21.43.15:144][909]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/EF_FirstFloor/Meshes/Attic_Door_a.Attic_Door_a
+[2022.11.12-21.43.15:187][909]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.11.12-21.43.25:562][547]LogSlate: Window 'Attic_Door_a' being destroyed
+[2022.11.12-21.43.25:569][547]LogSlate: Window 'Attic_Door_a' being destroyed
+[2022.11.12-21.43.25:577][547]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-21.43.25:577][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-21.43.27:349][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DiningRoomFloor_a)
+[2022.11.12-21.43.53:942][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_a2)
+[2022.11.12-21.44.42:866][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_a2)
+[2022.11.12-21.44.43:215][  4]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.12-21.44.43:463][ 26]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.12-21.44.47:621][424]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.12-21.45.23:707][424]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2022.11.12-21.45.26:847][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2022.11.12-21.45.42:721][691]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/FirstFloor_Auto280A0BA26491E946E1A2F3ABC991282A4.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Autosaves/Game/EF_FirstFloor/Maps/FirstFloor_Auto2.umap'
+[2022.11.12-21.45.42:733][691]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/EF_FirstFloor/Maps/FirstFloor' took 15.966
+[2022.11.12-21.45.42:733][691]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 15.966
+[2022.11.12-21.45.49:165][275]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.12-21.46.11:450][881]LogSlate: Window 'Select Path' being destroyed
+[2022.11.12-21.46.12:369][881]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2022.11.12-21.47.05:405][693]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2022.11.12-21.47.05:540][693]LogAssetEditorSubsystem: Opening Asset editor for TextureCube /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight
+[2022.11.12-21.47.05:550][693]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2022.11.12-21.47.09:268][974]LogSlate: Window 'HDRI_Epic_Courtyard_Daylight' being destroyed
+[2022.11.12-21.47.09:276][974]LogSlate: Window 'HDRI_Epic_Courtyard_Daylight' being destroyed
+[2022.11.12-21.48.14:666][289]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.12-21.50.01:831][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenFloor)
+[2022.11.12-21.50.02:420][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_a2)
+[2022.11.12-21.50.05:425][483]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.12-21.50.05:428][483]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.11.12-21.50.16:145][483]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2022.11.12-21.50.16:159][483]LogActorComponent: UnregisterComponent: (/Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Default__Door_a2_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2022.11.12-21.50.16:279][483]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2022.11.12-21.50.16:310][483]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Door_a2_Blueprint
+[2022.11.12-21.54.47:152][198]BlueprintLog: New page: Compile Door_a2_Blueprint
+[2022.11.12-21.54.47:251][198]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.11.12-21.54.47:877][224]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Door_a2_Blueprint8526ADFB45D2F261F10152AAB67C8113.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/Door_a2_Blueprint.uasset'
+[2022.11.12-21.54.47:921][224]AssetCheck: New page: Asset Save: Door_a2_Blueprint
+[2022.11.12-21.54.47:921][224]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Door_a2_Blueprint
+[2022.11.12-21.58.34:689][986]BlueprintLog: New page: Compile Door_a2_Blueprint
+[2022.11.12-21.58.34:758][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.11.12-21.58.35:514][ 15]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Door_a2_Blueprint5509CB314617F118BF2FE7AEB571F149.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/Door_a2_Blueprint.uasset'
+[2022.11.12-21.58.35:546][ 15]AssetCheck: New page: Asset Save: Door_a2_Blueprint
+[2022.11.12-21.58.35:546][ 15]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Door_a2_Blueprint
+[2022.11.12-21.58.43:301][531]BlueprintLog: New page: Compile Door_a2_Blueprint
+[2022.11.12-21.58.43:368][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.11.12-21.58.44:036][555]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Door_a2_Blueprint34C707B4408C65AFC1D260B3A4BB4208.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/Door_a2_Blueprint.uasset'
+[2022.11.12-21.58.44:067][555]AssetCheck: New page: Asset Save: Door_a2_Blueprint
+[2022.11.12-21.58.44:067][555]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Door_a2_Blueprint
+[2022.11.12-21.58.46:311][701]LogSlate: Window 'Door_a2_Blueprint' being destroyed
+[2022.11.12-21.58.46:316][701]LogSlate: Window 'Door_a2_Blueprint' being destroyed
+[2022.11.12-21.58.46:368][701]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-21.58.46:368][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-21.58.50:531][952]LogEditorViewport: Clicking on Actor (LMB): Door_a2_Blueprint_C (Door_a2_Blueprint)
+[2022.11.12-21.58.53:980][272]LogEditorViewport: Clicking on Actor (LMB): Door_a2_Blueprint_C (Door_a2_Blueprint)
+[2022.11.12-21.58.54:039][276]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.11.12-21.58.57:290][579]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EF_FirstFloor/Meshes/Door_a2_Blueprint.Door_a2_Blueprint
+[2022.11.12-21.59.05:464][ 47]LogSlate: Window 'Door_a2_Blueprint' being destroyed
+[2022.11.12-21.59.05:471][ 47]LogSlate: Window 'Door_a2_Blueprint' being destroyed
+[2022.11.12-21.59.05:489][ 47]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-21.59.05:489][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-22.00.01:755][570]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.12-22.00.01:758][570]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.11.12-22.00.10:297][570]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.12-22.00.10:303][570]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.12-22.00.10:322][570]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.12-22.00.13:345][883]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to STreeView< TSharedPtr<FTreeItem> > [SPathView.cpp(150)].
+[2022.11.12-22.00.13:345][883]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.11.12-22.00.13:350][883]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.12-22.00.13:392][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.11.12-22.00.30:737][883]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/FirstFloor_Auto3CADF993B4E85BD63B5F12B8D61124395.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Autosaves/Game/EF_FirstFloor/Maps/FirstFloor_Auto3.umap'
+[2022.11.12-22.00.30:750][883]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/EF_FirstFloor/Maps/FirstFloor' took 17.381
+[2022.11.12-22.00.30:750][883]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 17.381
+[2022.11.12-22.05.50:538][ 31]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Puzzle
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.SKEL_BP_Puzzle_C:UserConstructionScript' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.SKEL_BP_Puzzle_C' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle_C' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle:EventGraph.K2Node_Event_0' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle:EventGraph.K2Node_Event_1' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:576][ 31]LogMetaData: Removing '/Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle:EventGraph.K2Node_Event_2' ref from Metadata '/Game/EF_FirstFloor/Meshes/NewBlueprint.PackageMetaData'
+[2022.11.12-22.05.50:597][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.05.50:678][ 31]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle56F090B34D6ECD91318FE88E28292FD8.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.05.50:742][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.11.12-22.05.50:783][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.12-22.05.50:800][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.11.12-22.05.50:872][ 31]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.05.50:872][ 31]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.05.52:979][264]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.07.47:138][ 60]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.07.47:210][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2022.11.12-22.07.47:579][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.07.47:699][ 80]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_PuzzleB3C481DD4996BCD607A56A8055F58D1E.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.07.47:732][ 80]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.07.47:732][ 80]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.08.11:706][894]LogSlate: Took 0.000606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.11.12-22.10.32:152][885]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.10.32:210][885]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2022.11.12-22.10.32:781][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.10.32:954][921]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle52D3014A41A75248AA9E58A65D8DB753.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.10.32:988][921]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.10.32:988][921]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.11.16:334][ 17]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.11.16:382][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.11.12-22.11.17:023][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.11.17:213][ 63]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle2142BB8E4EF2325841ECFE92E59F20F2.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.11.17:246][ 63]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.11.17:246][ 63]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.16.48:544][197]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.16.48:599][197]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2022.11.12-22.16.49:092][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.16.49:390][229]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle05920FE14E6701D7F4A075A3A004DABC.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.16.49:424][229]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.16.49:424][229]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.17.14:278][ 24]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.17.14:330][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.11.12-22.17.14:773][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.17.15:214][ 49]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_PuzzleDF9E5CA149F27E84295349BF085FD131.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.17.15:254][ 49]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.17.15:254][ 49]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.17.26:133][821]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.17.26:184][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.11.12-22.17.26:529][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.17.27:010][841]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle67341CB343B2E4F23B66D3B05B5F5BA4.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.17.27:050][841]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.17.27:050][841]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.18.09:810][914]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.18.09:863][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.11.12-22.18.10:480][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.18.10:809][950]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle94D24482450A9049B646B3B38C1E868D.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.18.10:842][950]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.18.10:842][950]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.18.58:272][239]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.18.58:325][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2022.11.12-22.18.58:760][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.18.59:115][263]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle93DFFA354820AD93FB00F89B6BCDA15D.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.18.59:166][263]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.18.59:166][263]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.19.49:626][683]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.19.49:679][683]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2022.11.12-22.19.50:158][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.19.50:500][712]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle0BE5694F430C070BD0D28C8562FEB520.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.19.50:546][712]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.19.50:546][712]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.20.27:900][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.11.12-22.20.27:905][447]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/EF_FirstFloor/Maps/FirstFloor' took 0.033
+[2022.11.12-22.20.27:907][447]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/EF_FirstFloor/Meshes/BP_Puzzle] ([2] browsable assets)...
+[2022.11.12-22.20.27:916][447]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle]
+[2022.11.12-22.20.27:916][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/EF_FirstFloor/Meshes/BP_Puzzle]
+[2022.11.12-22.20.28:244][447]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_Puzzle_Auto45B702D2E492E6B9BDF36A4A689C20DEC.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/Autosaves/Game/EF_FirstFloor/Meshes/BP_Puzzle_Auto4.uasset'
+[2022.11.12-22.20.28:249][447]LogFileHelpers: Auto-saving content packages took 0.344
+[2022.11.12-22.20.30:744][628]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.20.30:794][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.11.12-22.20.31:213][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.20.31:551][651]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_PuzzleD26DA9FB4E9FA22979F0EA880F3745AA.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.20.31:596][651]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.20.31:596][651]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.20.32:612][724]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.20.32:617][724]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.20.32:625][724]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-22.20.32:625][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-22.20.34:888][953]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.26.27:817][688]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.26.27:904][688]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2022.11.12-22.26.28:177][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.26.28:620][704]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_PuzzleCE49E29749F7D0043600D3889730D371.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.26.28:654][704]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.26.28:654][704]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.26.29:289][749]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.26.29:294][749]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.26.29:303][749]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-22.26.29:303][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-22.26.31:104][933]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.26.42:082][557]BlueprintLog: New page: Compile BP_Puzzle
+[2022.11.12-22.26.42:166][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.11.12-22.26.42:490][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Meshes/BP_Puzzle" FILE="U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset" SILENT=true
+[2022.11.12-22.26.42:887][571]LogSavePackage: Moving 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Saved/BP_PuzzleADF8962241556CCC7E309E9D1CF5892E.tmp' to 'U:/Documents/Unreal Projects/415GameDev_FinalProject/FinalProject415/Content/EF_FirstFloor/Meshes/BP_Puzzle.uasset'
+[2022.11.12-22.26.42:917][571]AssetCheck: New page: Asset Save: BP_Puzzle
+[2022.11.12-22.26.42:917][571]LogContentValidation: Display: Validating Blueprint /Game/EF_FirstFloor/Meshes/BP_Puzzle.BP_Puzzle
+[2022.11.12-22.26.43:915][633]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.26.43:919][633]LogSlate: Window 'BP_Puzzle' being destroyed
+[2022.11.12-22.26.43:964][633]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-22.26.43:964][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
