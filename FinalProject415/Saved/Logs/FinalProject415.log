@@ -943,3 +943,52 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.14-04.43.35:439][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2022.11.14-04.43.35:444][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.11.14-04.46.40:453][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.11.14-05.08.14:156][472]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.14-05.08.14:241][472]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.14-05.08.15:819][472]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.14-05.08.15:836][472]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.14-05.08.15:842][472]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.14-05.08.36:030][168]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.11.14-05.08.36:043][168]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.14-05.08.39:441][512]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2022.11.14-05.08.39:711][512]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 126 classes and 0 folders.
+[2022.11.14-05.08.42:738][744]LogRenderer: Reallocating scene render targets to support 964x768 Format 10 NumSamples 1 (Frame:221).
+[2022.11.14-05.08.43:375][820]LogSlate: Window 'NewBlueprint' being destroyed
+[2022.11.14-05.08.44:336][927]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-05.08.44:336][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-05.08.49:916][463]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.11.14-05.09.10:700][910]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BasePhyics
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.BP_BasePhyics:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.SKEL_BP_BasePhyics_C:UserConstructionScript' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.SKEL_BP_BasePhyics_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.BP_BasePhyics_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.BP_BasePhyics:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.BP_BasePhyics:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:724][910]LogMetaData: Removing '/Game/BP_BasePhyics.BP_BasePhyics:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2022.11.14-05.09.10:756][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BasePhyics" FILE="D:/415GameDev_FinalProject/FinalProject415/Content/BP_BasePhyics.uasset" SILENT=true
+[2022.11.14-05.09.10:773][910]LogSavePackage: Moving 'D:/415GameDev_FinalProject/FinalProject415/Saved/BP_BasePhyics823E8E6A442E7289E63FD7BAAF2E5B2A.tmp' to 'D:/415GameDev_FinalProject/FinalProject415/Content/BP_BasePhyics.uasset'
+[2022.11.14-05.09.10:863][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.11.14-05.09.10:897][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.14-05.09.10:906][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.11.14-05.09.10:939][910]AssetCheck: New page: Asset Save: BP_BasePhyics
+[2022.11.14-05.09.10:940][910]LogContentValidation: Display: Validating Blueprint /Game/BP_BasePhyics.BP_BasePhyics
+[2022.11.14-05.09.12:973][130]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_BasePhyics.BP_BasePhyics
+[2022.11.14-05.09.15:479][376]LogSlate: Window 'BP_BasePhyics' being destroyed
+[2022.11.14-05.09.15:489][376]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-05.09.15:489][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-05.09.15:539][376]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_BasePhyics.BP_BasePhyics
+[2022.11.14-05.09.15:795][376]LogSlate: Took 0.000967 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.14-05.09.17:911][592]LogSlate: Window 'BP_BasePhyics' being destroyed
+[2022.11.14-05.10.22:201][ 35]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/PhysicalS/Meshes/SM_Cube.SM_Cube"''
+[2022.11.14-05.10.22:207][ 35]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/PhysicalS/Meshes/SM_Cube.SM_Cube"''
+[2022.11.14-05.10.22:208][ 35]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/PhysicalS/Meshes/SM_Cube.SM_Cube"''
+[2022.11.14-05.11.16:216][807]LogProperty: Warning: ObjectProperty /Script/Engine.MeshComponent:OverrideMaterials.OverrideMaterials: unresolved reference to 'Material'"/Game/PhysicalS/Materials/M_hand.M_hand"''
+[2022.11.14-05.11.16:216][807]LogProperty: Warning: ObjectProperty /Script/Engine.MeshComponent:OverrideMaterials.OverrideMaterials: unresolved reference to 'Material'"/Game/PhysicalS/Materials/M_hand.M_hand"''
+[2022.11.14-05.11.16:217][807]LogProperty: Warning: ObjectProperty /Script/Engine.MeshComponent:OverrideMaterials.OverrideMaterials: unresolved reference to 'Material'"/Game/PhysicalS/Materials/M_hand.M_hand"''
+[2022.11.14-05.11.16:926][890]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.14-05.11.19:065][105]BlueprintLog: New page: Compile BP_BasePhyics
+[2022.11.14-05.11.19:095][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.11.14-05.11.20:283][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BasePhyics" FILE="D:/415GameDev_FinalProject/FinalProject415/Content/BP_BasePhyics.uasset" SILENT=true
+[2022.11.14-05.11.20:292][215]LogSavePackage: Moving 'D:/415GameDev_FinalProject/FinalProject415/Saved/BP_BasePhyics8BE2CC094210F6DC8B06FBA7CBCF2F98.tmp' to 'D:/415GameDev_FinalProject/FinalProject415/Content/BP_BasePhyics.uasset'
+[2022.11.14-05.11.20:303][215]AssetCheck: New page: Asset Save: BP_BasePhyics
+[2022.11.14-05.11.20:303][215]LogContentValidation: Display: Validating Blueprint /Game/BP_BasePhyics.BP_BasePhyics
