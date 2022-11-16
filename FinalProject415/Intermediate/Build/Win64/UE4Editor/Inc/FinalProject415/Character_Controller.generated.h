@@ -13,10 +13,36 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FINALPROJECT415_Character_Controller_generated_h
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_SPARSE_DATA
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_RPC_WRAPPERS
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_INCLASS_NO_PURE_DECLS \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_20_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FInventoryItem_Statics; \
+	FINALPROJECT415_API static class UScriptStruct* StaticStruct(); \
+	typedef FTableRowBase Super;
+
+
+template<> FINALPROJECT415_API UScriptStruct* StaticStruct<struct FInventoryItem>();
+
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_SPARSE_DATA
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execWielding); \
+	DECLARE_FUNCTION(execRemoveFromInventory); \
+	DECLARE_FUNCTION(execAddToInventory); \
+	DECLARE_FUNCTION(execInventoryMinus); \
+	DECLARE_FUNCTION(execInventoryPlus); \
+	DECLARE_FUNCTION(execCollect);
+
+
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execWielding); \
+	DECLARE_FUNCTION(execRemoveFromInventory); \
+	DECLARE_FUNCTION(execAddToInventory); \
+	DECLARE_FUNCTION(execInventoryMinus); \
+	DECLARE_FUNCTION(execInventoryPlus); \
+	DECLARE_FUNCTION(execCollect);
+
+
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACharacter_Controller(); \
 	friend struct Z_Construct_UClass_ACharacter_Controller_Statics; \
@@ -25,7 +51,7 @@ public: \
 	DECLARE_SERIALIZER(ACharacter_Controller)
 
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_INCLASS \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_INCLASS \
 private: \
 	static void StaticRegisterNativesACharacter_Controller(); \
 	friend struct Z_Construct_UClass_ACharacter_Controller_Statics; \
@@ -34,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(ACharacter_Controller)
 
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_STANDARD_CONSTRUCTORS \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACharacter_Controller(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACharacter_Controller) \
@@ -47,7 +73,7 @@ private: \
 public:
 
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_ENHANCED_CONSTRUCTORS \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACharacter_Controller(ACharacter_Controller&&); \
@@ -58,28 +84,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACharacter_Controller)
 
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_PRIVATE_PROPERTY_OFFSET
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_12_PROLOG
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_GENERATED_BODY_LEGACY \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_PRIVATE_PROPERTY_OFFSET
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_51_PROLOG
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_PRIVATE_PROPERTY_OFFSET \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_SPARSE_DATA \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_RPC_WRAPPERS \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_INCLASS \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_STANDARD_CONSTRUCTORS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_PRIVATE_PROPERTY_OFFSET \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_SPARSE_DATA \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_RPC_WRAPPERS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_INCLASS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FinalProject415_Source_FinalProject415_Character_Controller_h_15_GENERATED_BODY \
+#define FinalProject415_Source_FinalProject415_Character_Controller_h_54_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_PRIVATE_PROPERTY_OFFSET \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_SPARSE_DATA \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_INCLASS_NO_PURE_DECLS \
-	FinalProject415_Source_FinalProject415_Character_Controller_h_15_ENHANCED_CONSTRUCTORS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_PRIVATE_PROPERTY_OFFSET \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_SPARSE_DATA \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_INCLASS_NO_PURE_DECLS \
+	FinalProject415_Source_FinalProject415_Character_Controller_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

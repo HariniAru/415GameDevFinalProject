@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FinalProject415.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{171FE2CA-4D88-483C-8BB3-0250DAF0F85A}</UniqueIdentifier>
+      <UniqueIdentifier>{1163DE27-74FC-4C20-A044-D26EBEA09BB1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FinalProject415.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{91EA5860-BD3F-4DD0-97B6-7E1BE7E72E58}</UniqueIdentifier>
+      <UniqueIdentifier>{F1D7D56E-70D1-4E4B-9200-779CD3E01BF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FinalProject415">
-      <UniqueIdentifier>{F4E4B312-C651-4490-B734-2CC236BF5B9F}</UniqueIdentifier>
+      <UniqueIdentifier>{21FD6F3B-E638-443B-9986-A33311B6194E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FinalProject415\Character_Controller.cpp">
       <Filter>Source\FinalProject415</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FinalProject415\Character_Controller.h">
+      <Filter>Source\FinalProject415</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FinalProject415\EscapeRoomGameModeBase.cpp">
+      <Filter>Source\FinalProject415</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FinalProject415\EscapeRoomGameModeBase.h">
       <Filter>Source\FinalProject415</Filter>
     </ClInclude>
     <None Include="..\..\Source\FinalProject415\FinalProject415.Build.cs">
@@ -45,6 +51,12 @@
       <Filter>Source\FinalProject415</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FinalProject415\FinalProject415.h">
+      <Filter>Source\FinalProject415</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FinalProject415\Item.cpp">
+      <Filter>Source\FinalProject415</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FinalProject415\Item.h">
       <Filter>Source\FinalProject415</Filter>
     </ClInclude>
   </ItemGroup>
