@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FinalProject415",
+			"Path": "C:\\Users\\Neil Song\\Documents\\GitHub\\415GameDev_FinalProject\\FinalProject415\\Source\\FinalProject415.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FinalProject415Editor",
+			"Path": "C:\\Users\\Neil Song\\Documents\\GitHub\\415GameDev_FinalProject\\FinalProject415\\Source\\FinalProject415Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
